@@ -6,16 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class Screen1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_screen1);
     }
-    public void screen1(View view) {
-        Intent intent = new Intent(this, Screen1.class);
+    public void mainScreen(View view) {
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
     }
-
 }
