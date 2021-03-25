@@ -45,4 +45,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/screen1TextView"
         app:layout_constraintVertical_bias="0.877" />
+
+    <Button
+        android:id="@+id/screen2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="188dp"
+        android:text="Screen 2"
+        android:onClick="screen2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainReturnButton"
+        app:layout_constraintVertical_bias="0.924"
+        tools:ignore="OnClick" />
 </androidx.constraintlayout.widget.ConstraintLayout>
