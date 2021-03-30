@@ -1,0 +1,3 @@
+[submodule "sqliteDatabase"]
+	path = sqliteDatabase
+	url = https://github.com/haqnawaz99/SqliteDatabase
