@@ -21,11 +21,6 @@ public class MainActivity extends AppCompatActivity {
         button=findViewById(R.id.countButton);
         textView=findViewById(R.id.countTextView);
     }
-//    @Override
-//    protected void onSaveInstanceState(@NonNull Bundle outState) {
-//        super.onSaveInstanceState(outState);
-//        outState.putInt("value", count);
-//    }
 
     public void counter(View view) {
         count=Integer.parseInt(textView.getText().toString());
