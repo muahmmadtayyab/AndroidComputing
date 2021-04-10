@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DrawerNavigationApplication</string>
+    <string name="Openning">DrawerNavigationApplication</string>
+    <string name="Closing">DrawerNavigationApplication</string>
 </resources>
