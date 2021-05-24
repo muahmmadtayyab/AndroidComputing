@@ -14,8 +14,8 @@
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/ic_launcher_background" />
-
+        android:src="@drawable/ic_baseline_person_24" />
+    
     <TextView
         android:id="@+id/textViewUserName"
         android:layout_width="wrap_content"
